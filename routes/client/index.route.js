@@ -3,9 +3,9 @@ const userMiddleware = require("../../middlewares/client/user.middleware");
 const userRoutes = require("./user.route");
 const chatRoutes = require("./chat.route");
 const authMiddleware = require("../../middlewares/client/auth.middleware");
-
 const homeRoutes = require("./home.route");
 const productRoutes = require("./product.route");
+
 module.exports = (app) => {
   app.use(categoryMiddleWare.category);
 
