@@ -1,7 +1,7 @@
 const { default: mongoose } = require("mongoose");
 
 const productSchema = new mongoose.Schema({
-  title: String.fromCharCode,
+  title: String,
   description: String,
   price: Number,
   discountPercentage: Number,
